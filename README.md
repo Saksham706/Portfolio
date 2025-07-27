@@ -8,26 +8,6 @@ This is my personal developer portfolio built using **React.js**. It showcases m
 
 ---
 
-## 📁 Project Structure
-
--Saksham_Resume
--├── public
--│ └── images
--├── src/
--│ ├── assets
--│ ├── components
--│ ├── pages
--│ ├── App.js 
--│ ├── index.js 
--│ └── styles
--├── .gitignore
--├── package.json
--├── README.md
--└── tailwind.config.js
-
-
----
-
 ## 🛠️ Built With
 
 - React.js
