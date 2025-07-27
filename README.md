@@ -10,20 +10,20 @@ This is my personal developer portfolio built using **React.js**. It showcases m
 
 ## 📁 Project Structure
 
-Saksham_Resume
-├── public
-│ └── images
-├── src/
-│ ├── assets
-│ ├── components
-│ ├── pages
-│ ├── App.js 
-│ ├── index.js 
-│ └── styles
-├── .gitignore
-├── package.json
-├── README.md
-└── tailwind.config.js
+-Saksham_Resume
+-├── public
+-│ └── images
+-├── src/
+-│ ├── assets
+-│ ├── components
+-│ ├── pages
+-│ ├── App.js 
+-│ ├── index.js 
+-│ └── styles
+-├── .gitignore
+-├── package.json
+-├── README.md
+-└── tailwind.config.js
 
 
 ---
@@ -49,9 +49,11 @@ npm install
 npm start
 ```
 
-📬 Contact
+## 📬 Contact
 If you’d like to connect, feel free to reach out via the Contact section in the portfolio.
-```
-📄 License
+
+---
+
+##📄 License
 This project is open-source and available under the MIT License.
 
