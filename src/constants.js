@@ -36,6 +36,7 @@ import krmuLogo from './assets/education_logo/krmu.jpeg';
 import gmpsLogo from './assets/education_logo/gmps.jpeg';
 
 // Project Section Logo's
+import unisyncLogo from './assets/work_logo/Unisynclogo.png';
 import dinewiseLogo from './assets/work_logo/dinewise.png';
 import notebookLogo from './assets/work_logo/notebook.png';
 import newsappLogo from './assets/work_logo/newsapp.png';
@@ -109,9 +110,9 @@ export const SkillsInfo = [
     {
       id: 0,
       img: ikkasaLogo,
-      role: "Fullstack Developer",
+      role: "Web Developer",
       company: "Ikkasa",
-      date: "July 2025 - Present",
+      date: "July 2025 - November 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -124,23 +125,6 @@ export const SkillsInfo = [
         "Redux",
       ],
     },
-    {
-      id: 1,
-      img: ggsandco,
-      role: "Fullstack developer Intern",
-      company: "GGS and Co.",
-      date: "June 2025 - July 2025",
-      desc: "I worked on enhancing and modifying the company’s website using the MERN stack, gaining hands-on experience in full-stack development and real-world workflows. My contributions included building and updating frontend components with React.js to improve UI/UX, and creating RESTful APIs using Node.js and Express.js. I also managed and optimized MongoDB database operations to ensure efficient data handling and performance.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "MongoDb",
-      ],
-    },
   ];
   
   export const education = [
@@ -149,7 +133,7 @@ export const SkillsInfo = [
       img: krmuLogo,
       school: "K.R Mangalam University, Gurugram",
       date: "Aug 2022 - Present",
-      grade: "8.0 CGPA",
+      grade: "7.98 CGPA",
       desc: "I completed my Bachelor's degree in Computer Science and Engineering from K.R Mangalam University, Gurugram. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at K.R Mangalam Univeristy allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Technology - B.Tech(Computor Science and Engineering)",
     },
@@ -176,6 +160,15 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Unisync -Smart Notification Scheduling Panel for Universities",
+      description:
+        "The Smart Timetable & Notification Bot is a modern MERN-based system designed to simplify academic scheduling and communication across universities. It automates timetable updates, sends real-time notifications, and ensures seamless interaction between students and faculty.",
+      image: unisyncLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "Express JS", "MongoDB","API Integration", "Mulitiple User Roles"],
+      github: "https://github.com/Saksham706/Smart-Timetable-Notification-Bot-for-Students",
+    },
+    {
+      id: 1,
       title: "DineWise - REAL TIME DINE-OUT APPLICATION  ",
       description:
         "DineWise is a smart restaurant booking and review system built to elevate your dining experience. It empowers users to find, book, and review restaurants effortlessly, while providing restaurant owners with insights and feedback to improve their services.",
@@ -184,7 +177,7 @@ export const SkillsInfo = [
       github: "https://github.com/Saksham706/DineWise",
     },
     {
-      id: 1,
+      id: 2,
       title: "Notebook Web Application",
       description:
         "Welcome to NoteBook — a secure, full-stack note-taking app built with React, Vite, Node.js, and Express.js. Organize your thoughts by creating folders and notes, with autosave and strong authentication to keep your data safe.",
@@ -193,7 +186,7 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/CSPrep",
     },
     {
-      id: 2,
+      id: 3,
       title: "News App",
       description:
         "NewsApp is a React-based web application that delivers daily updated news from around the world using a third-party news API. Users can stay informed with the latest headlines, view article details including the publisher's name and publication date, and explore stories across various topics.",
@@ -202,12 +195,12 @@ export const SkillsInfo = [
       github: "https://github.com/Saksham706/NewsApp",
     },
     {
-      id: 3,
+      id: 4,
       title: "TextUtils",
       description:
         "TextUtils is a simple and interactive React-based web application that allows users to analyze and manipulate text quickly and efficiently. With a sleek user interface and essential utilities, this tool is ideal for students, developers, writers, or anyone working with text.",
       image: textutilsLogo,
       tags: ["HTML","CSS","Javascript","React JS"],
       github: "https://github.com/Saksham706/textUtils",
-    }
+    },
   ];  

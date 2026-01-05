@@ -48,7 +48,7 @@ integration. Strong foundation in Java, C++, and DSA for efficient problem-solvi
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1dNZ9WIBc7TA9hI5Te32gRYk-XUPdowbQ/view?usp=drivesdkhttps://drive.google.com/file/d/1dHM4ajX2zuZhCZd58pnvqXHF2PfZULHc/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1VvaRzAg8cM_c_4Clx_FF4xJIvRDPBGB5/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
