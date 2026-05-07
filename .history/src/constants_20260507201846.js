@@ -235,7 +235,7 @@ export const projects = [
       "REST APIs",
     ],
 
-    github: "https://github.com/Saksham706/Vocodeai",
+    github: "https://github.com/Saksham706",
   },
 
   {

@@ -9,8 +9,10 @@ const Work = () => {
       id="projects"
       className="py-24 px-[7vw] lg:px-[12vw] bg-black font-sans"
     >
+
       {/* TITLE */}
       <div className="text-center mb-20">
+
         <h2 className="text-5xl font-extrabold text-white">
           Featured Projects
         </h2>
@@ -18,20 +20,23 @@ const Work = () => {
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4 rounded-full"></div>
 
         <p className="text-gray-400 text-lg mt-6 max-w-3xl mx-auto">
-          Projects showcasing my experience in MERN stack development, AI
-          integration, Docker containerization, REST APIs, authentication
-          systems, and scalable web applications.
+          Projects showcasing my experience in MERN stack development,
+          AI integration, Docker containerization, REST APIs,
+          authentication systems, and scalable web applications.
         </p>
       </div>
 
       {/* PROJECT GRID */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+
         {projects.map((project) => (
+
           <div
             key={project.id}
             onClick={() => setSelectedProject(project)}
             className="group bg-[#111] rounded-3xl overflow-hidden border border-purple-500/10 hover:border-purple-500 transition-all duration-300 cursor-pointer hover:-translate-y-3"
           >
+
             <div className="overflow-hidden">
               <img
                 src={project.image}
@@ -41,6 +46,7 @@ const Work = () => {
             </div>
 
             <div className="p-8">
+
               <h3 className="text-3xl font-bold text-white mb-4">
                 {project.title}
               </h3>
@@ -50,6 +56,7 @@ const Work = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mt-6">
+
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
@@ -66,57 +73,56 @@ const Work = () => {
 
       {/* MODAL */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex justify-center items-center bg-black/80 p-4">
-          <div className="bg-[#111] w-full max-w-2xl rounded-2xl overflow-y-auto max-h-[90vh] relative border border-purple-500/20">
-            {/* CLOSE BUTTON */}
+        <div className="fixed inset-0 z-50 flex justify-center items-center bg-black/90 p-5">
+
+          <div className="bg-[#111] max-w-4xl w-full rounded-3xl overflow-hidden relative border border-purple-500/20">
+
             <button
               onClick={() => setSelectedProject(null)}
-              className="absolute top-3 right-4 text-white text-3xl hover:text-purple-500 z-10"
+              className="absolute top-5 right-6 text-white text-4xl hover:text-purple-500"
             >
               ×
             </button>
 
-            {/* IMAGE */}
             <img
               src={selectedProject.image}
               alt={selectedProject.title}
-              className="w-full h-[220px] object-cover"
+              className="w-full h-[350px] object-cover"
             />
 
-            {/* CONTENT */}
-            <div className="p-5">
-              {/* TITLE */}
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+            <div className="p-8">
+
+              <h2 className="text-4xl font-bold text-white mb-6">
                 {selectedProject.title}
               </h2>
 
-              {/* DESCRIPTION */}
-              <p className="text-gray-400 text-sm md:text-base leading-relaxed">
+              <p className="text-gray-400 text-lg leading-relaxed">
                 {selectedProject.description}
               </p>
 
-              {/* TAGS */}
-              <div className="flex flex-wrap gap-2 mt-6">
+              <div className="flex flex-wrap gap-3 mt-8">
+
                 {selectedProject.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-xs md:text-sm"
+                    className="bg-purple-500/10 text-purple-400 px-4 py-2 rounded-full"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
 
-              {/* BUTTON */}
-              <div className="mt-8">
+              <div className="mt-10">
+
                 <a
                   href={selectedProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-xl text-white font-semibold transition-all duration-300"
+                  className="inline-block bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-xl text-white font-bold transition-all duration-300"
                 >
                   View Source Code
                 </a>
+
               </div>
             </div>
           </div>

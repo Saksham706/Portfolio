@@ -12,7 +12,7 @@ import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import redisLogo from "./assets/tech_logo/redis.jpg";
+import redisLogo from "./assets/tech_logo/redis.png";
 
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
@@ -235,7 +235,7 @@ export const projects = [
       "REST APIs",
     ],
 
-    github: "https://github.com/Saksham706/Vocodeai",
+    github: "https://github.com/Saksham706",
   },
 
   {
