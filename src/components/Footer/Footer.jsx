@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/saksham-agarwal-078380259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/saksham-agarwal706" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/saksham0607?igsh=YWx6Nzhoeml1cjA2" }
             
           ].map((item, index) => (
