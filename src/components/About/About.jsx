@@ -64,7 +64,7 @@ const About = () => {
           <div className="flex flex-wrap gap-5 justify-center md:justify-start mt-10">
 
             <a
-              href="https://drive.google.com/file/d/1VvaRzAg8cM_c_4Clx_FF4xJIvRDPBGB5/view"
+              href="https://drive.google.com/file/d/1J25hYB_e5guHurBfpQNqECv7EQasUZ7e/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full text-lg font-bold text-white transition-all duration-300 hover:scale-105"
