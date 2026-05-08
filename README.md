@@ -16,11 +16,6 @@
 <img src="https://img.shields.io/badge/AI-OpenAI_Integration-black?style=for-the-badge" />
 
 <br/>
-<br/>
-
-<img width="280" src="https://avatars.githubusercontent.com/u/000000000?v=4" />
-
-<br/>
 
 > ### 💻 Building Secure, Scalable & AI-Powered Web Applications
 
@@ -38,7 +33,7 @@ https://portfolio-psi-two-7zkaejvs56.vercel.app/
 <br/>
 
 ### 💼 LinkedIn  
-https://linkedin.com/in/YOUR_LINKEDIN
+https://www.linkedin.com/in/saksham-agarwal706/
 
 <br/>
 
@@ -125,28 +120,6 @@ const saksham = {
 ## ☁️ DevOps & Tools
 
 <img src="https://skillicons.dev/icons?i=docker,git,github,postman,vscode" />
-
-</div>
-
----
-
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Saksham706&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saksham706&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Saksham706&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -256,7 +229,7 @@ const saksham = {
 
 ### 💼 LinkedIn
 
-https://linkedin.com/in/YOUR_LINKEDIN
+https://www.linkedin.com/in/saksham-agarwal706/
 
 <br/>
 
