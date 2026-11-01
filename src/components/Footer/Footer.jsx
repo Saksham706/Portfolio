@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaHeart, FaInstagram } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { personalInfo } from "../../constants";
 
@@ -75,6 +75,15 @@ const Footer = () => {
             className="p-3 rounded-full bg-white/5 hover:bg-[#FFA116]/20 text-gray-300 hover:text-[#FFA116] border border-purple-500/20 hover:border-[#FFA116]/50 transition-all"
           >
             <SiLeetcode size={18} />
+          </a>
+          <a
+            href="https://www.instagram.com/saksham0607?igsh=YWx6Nzhoeml1cjA2"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+            className="p-3 rounded-full bg-white/5 hover:bg-pink-600/20 text-gray-300 hover:text-pink-400 border border-purple-500/20 hover:border-pink-500/50 transition-all"
+          >
+            <FaInstagram size={18} />
           </a>
           <a
             href={`mailto:${personalInfo.email}`}
